@@ -1,0 +1,11 @@
+<div style="display: inline-block">
+  <p>Total Cost: {{shoppingCart.totalCost}}</p>
+{{#each shoppingCart.items as |item|}}
+<div class="box" style=" border: 1px solid black; text-align: center; float:left ; width: 100px ; height: 100px">
+<h4>{{item.name}}</h4>
+<p>{{item.type}}</p>
+<p><img style= "width: 50%" src={{item.image}} alt="just an image"></p>
+<button {{action 'delete' item}}>Remove</button>
+</div>
+{{/each}}
+</div>

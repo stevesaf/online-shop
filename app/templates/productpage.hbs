@@ -1,0 +1,9 @@
+<h2>Interested in adopting {{model.name}}?</h2>
+
+{{product-detail product=model}}
+
+{{#each model.reviews as |review|}}
+<li>{{review.reviewer}} {{review.review}}</li>
+{{/each}}
+
+{{product-review saveReview="saveReview" product=model}}

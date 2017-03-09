@@ -1,0 +1,8 @@
+<div class="box" style="width: 300px ; height: 300px; border: 1px solid black; text-align: center;">
+  <h4 style="">{{#link-to 'productpage' product}}{{product.name}}{{/link-to}}</h4>
+  <p style="">{{product.type}}</p>
+  <p style=""><img style="width: 50%" src={{product.image}}></p>
+  <p style="font-size: 12px;">{{product.description}}</p>
+  <p style="font-size: 12px;">{{product.cost}}</p>
+  <button {{action "addToCart" product}}>Add to Cart</button>
+</div>

@@ -1,0 +1,15 @@
+{ "products": [{
+    "name": "Joseph",
+    "type": "Dog",
+    "description": "Joseph is a good boy",
+    "image": "http://cdn2-www.dogtime.com/assets/uploads/2011/01/file_23244_what-is-the-appenzeller-sennenhunde-dog-300x189.jpg",
+    "cost": 250
+  },{
+    "name": "Michael-Davidson",
+    "type": "Cat",
+    "description": "He's a frisky one",
+    "image": "http://everycreaturecounts.org/wp-content/uploads/2015/01/Black-cat-300x300.jpg",
+    "cost": 200
+
+  }]
+}

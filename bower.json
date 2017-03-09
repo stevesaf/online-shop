@@ -1,5 +1,6 @@
 {
   "name": "online-shop",
   "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }

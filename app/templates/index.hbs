@@ -1,0 +1,14 @@
+<div>
+  <h1 style="text-align: center"> Welcome to our online store </h1>
+
+  <br>
+  <div style="float: left">
+    {{#each model as |product|}}
+      {{product-tile product=product}}
+    {{/each}}
+  </div>
+
+  <!-- <div style="float: right; margin-right: 300px">
+    {{display-cart}}
+  </div> -->
+</div>

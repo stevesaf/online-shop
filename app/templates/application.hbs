@@ -1,5 +1,16 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Get a Pet</h1>
+      </div>
+      <div class="pull-right">
+        <ul class="nav nav-pills">
+             <li class="nav-all active"><a href="http://localhost:4200/">Home</a></li>
+             <li class="nav-contact"><a>{{#link-to 'cart'}}Cart{{/link-to}}</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </div>
 {{outlet}}
